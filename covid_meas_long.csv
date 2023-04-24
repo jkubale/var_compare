@@ -1,0 +1,593 @@
+Category,Subcategory,Conceptual Variable,Study,Variable,Question_text,Interviewer_instruction,Values,Coded_values
+COVID Exposure,Diagnosis,Was R ever diagnosed with COVID-19 by health care provider,HRS,C331,Were you ever diagnosed with a COVID-19 infection by a test or health care provider?,,"Yes;
+No;
+Don't know;
+Refused","1
+5
+DK
+RF"
+COVID Exposure,Diagnosis,Did R ever test positive for COVID-19?,HRS,C331,Were you ever diagnosed with a COVID-19 infection by a test or health care provider?,,"Yes;
+No;
+Don't know;
+Refused","1
+5
+DK
+RF"
+COVID Exposure,Symptoms,Did R have any COVID-19 symptoms?,HRS,C332,Did you ever have symptoms?,"IF R HAD COVID-19 MORE THAN ONCE, TELL THEM TO REFER TO THEIR WORST EXPERIENCE.","Yes;
+No;
+Don't know;
+Refused","1
+5
+DK
+RF"
+COVID Exposure,Long COVID,Is R experiencing symptoms/continuing health problems related to COVID-19,HRS,C333,Do you continue to have health problems related to your experience with COVID-19?,,"Yes;
+No;
+Not sure (HAVE HEALTH PROBLEMS, BUT UNSURE IF THEY ARE BECAUSE OF CORONAVIRUS);
+Don't know;
+Refused","1
+5
+6
+DK
+RF"
+Vaccination,Vaccination status,Has R received [at least one dose of] a COVID-19 vaccine,HRS,C327,Have you ever had a COVID-19 vaccine?,,"Yes;
+No;
+Don't know;
+Refused;","1
+5
+DK
+RF"
+Vaccination,Vaccination timing,Month of R's most recent COVID-19 vaccination or booster,HRS,C328,"What was the date of your most recent vaccine? If you have gotten a booster shot, please give us the month, day, and year of that shot. Month:",,,
+Vaccination,Vaccination timing,Day of R's most recent COVID-19 vaccination or booster,HRS,C329,"[What was the date of your most recent vaccine? If you have gotten a booster shot, please give us the month, day, and year of that shot.] Day:",,,
+Vaccination,Vaccination timing,Year of R's most recent COVID-19 vaccination or booster,HRS,C330,"[What was the date of your most recent vaccine? If you have gotten a booster shot, please give us the month, day, and year of that shot.] Year:",,,
+Vaccination,Vaccination timing,Year of R's next most recent COVID-19 vaccination or booster,HRS,C330,"[What was the date of your most recent vaccine? If you have gotten a booster shot, please give us the month, day, and year of that shot.] Year:",,,
+COVID Exposure,Diagnosis,Has R had COVID-19,PSID,HCOVID19,[Have you / Has [REFERENCE PERSON] / Has [SPOUSE-PARTNER]] had COVID-19?,Remind R to include times when R thought or a doctor or other health professional diagnosed they probably had COVID-19,"Yes;
+No","1
+5"
+COVID Exposure,Diagnosis,Has R had COVID-19 more than once,PSID,HCOVID20,[Have you / Has [REFERENCE PERSON] / Has [SPOUSE-PARTNER]] had COVID-19 more than once?,Remind R to include times when R thought or a doctor or other health professional diagnosed they probably had COVID-19,"Yes;
+No","1
+5"
+COVID Exposure,Diagnosis,Month R last had COVID-19,PSID,HCOVID21MO,In what month and year did [you / [REFERENCE PERSON] / [SPOUSE-PARTNER]] [HCOVID20=1: last] have COVID-19)?,SELECT Month and [Enter] to go to next screen for year,"January;
+February;
+March;
+April;
+May;
+June;
+July;
+August;
+September;
+October;
+November;
+December;
+Winter (Dec-Feb);
+Spring (Mar-May);
+Summer (Jun-Aug);
+Fall (Sep-Nov)","1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+21
+22
+23
+24"
+COVID Exposure,Diagnosis,Year R last had COVID-19,PSID,HCOVID21YR,In what month and year did [you / [REFERENCE PERSON] / [SPOUSE-PARTNER]] [HCOVID20=1: last] have COVID-19)?,ENTER the year below,2020-present year,
+COVID Exposure,Treatment & Hospitalization,"Has R ever been prescribed antiviral treatments, monoclonal antibodies, or another treatment for COVID-19?",PSID,HCOVID23,"Has a doctor or other health professional [HCOVID20=1: ever] prescribed you antiviral treatments, monoclonal antibodies, or another treatment for COVID-19? This treatment could have been administered by pill, injection, or through an IV infusion.",,"Antiviral treatments;
+Monoclonal antibodies;
+Other-specify","1
+2
+3"
+COVID Exposure,Treatment & Hospitalization,Was R admitted to hospital for COVID-19?,PSID,HCOVID10,"[Were you / Was [REFERENCE PERSON] / Was [SPOUSE-PARTNER]] admitted to a hospital
+because of COVID-19?",,"Yes;
+No","1
+5"
+COVID Exposure,Treatment & Hospitalization,# nights R spent in hospital for COVID-19?,PSID,HCOVID11,How many nights did [you / he / she] spend in the hospital?,,Jan-60,
+COVID Exposure,Treatment & Hospitalization,"Did R require oxygen, ICU, or breathing tube for COVID-19?",PSID,HCOVID12,Did [you / he / she] require any of the following treatments?,"READ list
+ENTER all that apply","Oxygen (in the nose or using a facemask);
+Intensive care or ICU monitoring;
+A breathing tube or ventilator;
+Other-specify;
+None of the above ","1
+2
+3
+6
+7"
+COVID Exposure,Symptoms,Did R have any COVID-19 symptoms?,PSID,HCOVID13,Did [you / [REFERENCE PERSON] / [SPOUSE-PARTNER]] have any COVID-19 symptoms?,"If R had COVID-19 more than once, PROBE: Please tell us about the worst experience","Yes;
+No","1
+5"
+COVID Exposure,Symptoms,How bad were COVID-19 symptoms at their worst?,PSID,HCOVID14,"Overall, when these symptoms were at their worst, how bad or bothersome were they?
+Would you say they were mild, moderate, severe or very severe?",,"Mild;
+Moderate;
+Severe; 
+Very severe","1
+2
+3
+4"
+COVID Exposure,Long COVID,Is R experiencing symptoms/continuing health problems related to COVID-19,PSID,HCOVID15,"Are [you / he / she] currently experiencing any lingering physical or mental health effects from
+COVID-19 [HCOVID13=YES: or these symptoms]?","If R says not sure if symptoms are due to COVID-19 or some other condition, ENTER [2]","Yes;
+Not sure; 
+No","1
+2
+5"
+COVID Exposure,Long COVID,"Are COVID-19-related health problems physical, mental, or both",PSID,HCOVID16,"Are these physical health effects, mental health effects, or both?",,"Physical; 
+Mental; 
+Both","1
+2
+3"
+COVID Exposure,Long COVID,How bad are lingering health effects of COVID-19?,PSID,HCOVID17,"How bad or bothersome are the lingering physical or mental health effects from
+COVID-19 [HCOVID13=YES: or these symptoms]? Would you say they are mild,
+moderate, severe or very severe?",,"Mild;
+Moderate; 
+Severe; 
+Very severe","1
+2
+3
+4"
+Vaccination,Vaccination status,Has R received [at least one dose of] a COVID-19 vaccine,PSID,HCOVID1A,[Have you / Has [REFERENCE PERSON] / Has [SPOUSE-PARTNER]] had a vaccine for COVID-19?,"Some COVID-19 vaccines require 2 shots: ENTER [1] if this person has received the first shot, whether or not they have received the second shot","Yes; 
+No","1
+5"
+Vaccination,Vaccination timing,Month of R's most recent COVID-19 vaccination or booster,PSID,HCOVID18MO,In what month and year did [you / [REFERENCE PERSON] / [SPOUSE-PARTNER]] receive [your / his / her] most recent COVID-19 vaccination or booster shot? Month,,"January;
+February;
+March;
+April;
+May;
+June;
+July;
+August;
+September;
+October;
+November;
+December;
+Winter (Dec-Feb);
+Spring (Mar-May);
+Summer (Jun-Aug);
+Fall (Sep-Nov)","1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+21
+22
+23
+24"
+Vaccination,Vaccination timing,Year of R's most recent COVID-19 vaccination or booster,PSID,HCOVID18YR,In what month and year did [you / [REFERENCE PERSON] / [SPOUSE-PARTNER]] receive [your / his / her] most recent COVID-19 vaccination or booster shot? Year,,2020-current year,
+Vaccination,Vaccination timing,Year of R's next most recent COVID-19 vaccination or booster,PSID,HCOVID18YR,In what month and year did [you / [REFERENCE PERSON] / [SPOUSE-PARTNER]] receive [your / his / her] most recent COVID-19 vaccination or booster shot? Year,,2020-current year,
+Vaccination,Number of vaccines,How many COVID-19 vaccinations has R received,PSID,HCOVID18A,How many COVID-19 vaccinations [have you / has [REFERENCE PERSON] / has [SPOUSE-PARTNER]] had?,,9-Jan,
+Vaccination,Number of vaccines,Has R had all COVID-19 vaccines recommended/eligible,PSID,HCOVID18,[Have you / Has [REFERENCE PERSON] / Has [SPOUSE-PARTNER]] had all COVID-19 vaccinations that are recommended and for which [you are / he is / she is] eligible?,"Some COVID-19 vaccines require 2 shots; you may be eligible for one or two booster shots, depending on your age, risk factors, and when you received your previous shot(s)","Yes;
+No","1
+5"
+COVID Exposure,Diagnosis,Was R ever diagnosed with COVID-19 by health care provider,Pulse 3.7,VAC8_B,"Have you ever tested positive for COVID-19 (using a rapid point-of-care test, self-test, or laboratory test) or been told by a doctor or other health care provider that you have or had COVID-19?",,"Yes;  
+No",
+COVID Exposure,Diagnosis,Did R ever test positive for COVID-19?,Pulse 3.7,VAC8_B,"Have you ever tested positive for COVID-19 (using a rapid point-of-care test, self-test, or laboratory test) or been told by a doctor or other health care provider that you have or had COVID-19?",,"Yes;  
+No",
+COVID Exposure,Diagnosis,Did R last have COVID-19/test positive more or less than four weeks ago,Pulse 3.7,VAC8_C,When did you test positive or were told you have or had  COVID-19? ,,"Within the last four weeks;  
+More than four weeks ago; 
+Both;",
+COVID Exposure,Symptoms,How bad were COVID-19 symptoms at their worst?,Pulse 3.7,PASC1,How would you describe your coronavirus symptoms when they were at their worst?,,"I had no symptoms;  
+I had mild symptoms;  
+I had moderate symptoms; 
+I had severe symptoms;
+",
+COVID Exposure,Long COVID,Did R have symptoms lasting >3 months that R did not have prior to COVID-19,Pulse 3.7,PASC2,Did you have any symptoms lasting 3 months or longer that you did not have prior to having coronavirus or COVID-19? ,"Long term symptoms may include: tiredness or fatigue, difficulty thinking or concentrating, forgetfulness or memory problems (sometimes referred to as ""brain fog""), difficulty breathing or shortness of breath, joint or muscle pain, fast-beating or pounding heart (also known as heart palpitations), chest pain, dizziness on standing, changes to your menstrual cycle, changes to taste/smell, or inability to exercise. ","Yes; 
+No",
+COVID Exposure,Long COVID,Is R experiencing symptoms/continuing health problems related to COVID-19,Pulse 3.7,PASC3,Do you have symptoms now? ,,"Yes; 
+No",
+COVID Exposure,Long COVID,How much do long-term symptoms reduce R's ability to carry out day-to-day activities?,Pulse 3.7,PASC4,Do these long-term symptoms reduce your ability to carry out day-to-day activities compared with the time before you had COVID-19?,,"Yes, a lot;  
+Yes, a little;  
+Not at all",
+Vaccination,Vaccination status,Has R received [at least one dose of] a COVID-19 vaccine,Pulse 3.7,VAC1 ,Have you received at least one dose of a COVID-19 vaccine?,,"Yes;    
+No",
+Vaccination,Vaccination timing,How long ago did R last receive a COVID-19 vaccine - before/after September 2022 or 1+ year ago,Pulse 3.7,VAC2,How long ago was your most recent dose of the COVID-19 vaccine or booster?,,"On or after September 1, 2022;  
+Before September 1, 2022 but less than a year ago;
+More than a year ago",
+Vaccination,Vaccination timing,How long ago was child/children's most recent COVID-19 dose - before/after September 2022 or 1+ year ago (children ages 12-17),Pulse 3.7,VAC5_rev,"For the children [ages 12-17] in this household, how long ago was their most recent dose of the COVID-19 vaccine or booster?",,"On or after September 1, 2022;  
+Before September 1, 2022 but less than a year ago; 
+More than a year ago; 
+Not vaccinated",
+Vaccination,Vaccination timing,How long ago was child/children's most recent COVID-19 booster - before/after September 2022 or 1+ year ago (children ages 5-11),Pulse 3.7,VAC5_rev,"For the children [ages 5-11] in this household, how long ago was their most recent dose of the COVID-19 vaccine or booster?",,"On or after September 1, 2022;  
+Before September 1, 2022 but less than a year ago; 
+More than a year ago; 
+Not vaccinated",
+Vaccination,Vaccination timing,How long ago was child/children's most recent COVID-19 booster - before/after September 2022 or 1+ year ago (children under 5),Pulse 3.7,VAC5_rev,"For the children [under 5] in this household, how long ago was their most recent dose of the COVID-19 vaccine or booster?",,"On or after September 1, 2022;  
+Before September 1, 2022 but less than a year ago; 
+More than a year ago; 
+Not vaccinated",
+Vaccination,Intent to vaccinate children,Will children under 5 receive a COVID-19 vaccine,Pulse 3.7,VAC6 ,"Now that vaccines to prevent COVID-19 are available to most children, will the parents or guardians of children [under 5 years old] living in your household [select appropriate option]",,"Definitely get the children a vaccine; 
+Probably get the children a vaccine; 
+Be unsure about getting the children a vaccine; 
+Probably NOT get the children a vaccine; 
+Definitely NOT get the children a vaccine; 
+I do not know the plans for vaccination ","1
+2
+3
+4
+5
+6"
+Vaccination,Intent to vaccinate children,Will children ages 5-11 receive a COVID-19 vaccine,Pulse 3.7,VAC6 ,"Now that vaccines to prevent COVID-19 are available to most children, will the parents or guardians of children [5-11 years old] living in your household [select appropriate option]",,"Definitely get the children a vaccine; 
+Probably get the children a vaccine; 
+Be unsure about getting the children a vaccine; 
+Probably NOT get the children a vaccine; 
+Definitely NOT get the children a vaccine; 
+I do not know the plans for vaccination ","1
+2
+3
+4
+5
+6"
+Vaccination,Intent to vaccinate children,Will children ages 12-17 receive a COVID-19 vaccine,Pulse 3.7,VAC6 ,"Now that vaccines to prevent COVID-19 are available to most children, will the parents or guardians of children [12-17 years old] living in your household [select appropriate option]",,"Definitely get the children a vaccine;
+Probably get the children a vaccine; 
+Be unsure about getting the children a vaccine; 
+Probably NOT get the children a vaccine; 
+Definitely NOT get the children a vaccine; 
+I do not know the plans for vaccination ","1
+2
+3
+4
+5
+6"
+Vaccination,Reasons for not vaccinating,Reasons R has not received an updated COVID-19 booster,Pulse 3.7,VAC4_B,"On September 1st, 2022, an updated COVID-19 booster became available. Which of the following, if any, are reasons that you have not received an updated COVID-19 booster dose?",,"I am not yet eligible to receive an updated COVID-19 booster dose; 
+I plan to get a booster and am eligible, but haven’t yet; 
+I think I have enough immunity to COVID-19 from prior doses of the vaccine; 
+I’m not worried about getting COVID-19; 
+My doctor has not recommended it;   
+I already had COVID-19; 
+I am not required to get a COVID-19 booster (by my work or school); 
+I experienced side effects from my previous dose(s) of the COVID-19 vaccine;  
+Other (please specify)",
+Vaccination,Reasons for not vaccinating,Reasons for not vaccinating children for COVID-19,Pulse 3.7,VAC7,"Which of the following, if any, are reasons that the parents or guardians of children living in your household may not or will not get a vaccine for all of the children? Select all that apply.",,"Concern about possible side effects of a COVID-19 vaccine for children;   
+Plan to wait and see if it is safe and may get it later;    
+Not sure if a COVID-19 vaccine will work for children;    
+Don't believe children need a COVID-19 vaccine;
+The children in this household are not members of a high-risk group;    
+The children’s doctor has not recommended it;    
+Parents or guardians in this household do not vaccinate their children;     
+Don't trust COVID-19 vaccines;    
+Don't trust the government;    
+Other (specify)",
+COVID Exposure,Diagnosis,Has R had COVID-19,NHATS 13,CV1,"{In the last year {of SP’s life}, {{have you/has SP}/did SP} / {Have you/Has SP} ever} {have/had} COVID?19?",,"Yes;
+Possibly (if volunteered);
+No;
+Refused;
+Don't know","1
+2
+3
+Refused
+Don’t know"
+COVID Exposure,Symptoms,How bad were COVID-19 symptoms at their worst?,NHATS 13,CV2,"When {your/his/her} COVID?19 symptoms or health effects were at their worst, were they mild, moderate, severe or very severe?",,"Mild;
+Moderate;
+Severe;
+Very Severe;
+Refused;
+Don't know;","1
+2
+3
+4
+Refused
+Don't know"
+COVID Exposure,Long COVID,Is R experiencing symptoms/continuing health problems related to COVID-19,NHATS 13,CV3,"In the last month {of SP’s life}, {were you/was SP} still having symptoms or health effects from COVID?19?",,"Yes;
+No;
+Refused;
+Don't know","1
+2
+Refused
+Don't know"
+COVID Exposure,Long COVID,How long did R's COVID-19 symptoms/health effects last? 1 week-2+ months,NHATS 13,CV4A,"How long {{have you/has SP} had/did {your/his/her}} symptoms or health effects from COVID?19 {last}?
+Would you say less than a week, 1?2 weeks, 3?4 weeks, 1?2 months, or more than 2 months?",,"Less than a week;
+1 - 2 Weeks;
+3 - 4 Weeks;
+1 - 2 Months;
+More than 2 Months;
+Refused;
+Don't know","1
+2
+3
+4
+5
+Refused
+Don't know"
+COVID Exposure,Long COVID,How long did R's COVID-19 symptoms/health effects last? 2 months-12+ months,NHATS 13,CV4B,"Would you say {you/SP} {have/has} had symptoms or health effects from COVID?19 for 2?3 months, 4?5
+months, 6? 12 months, or more than 12 months?",,"2 - 3 Months;
+4 - 5 Months;
+6 - 12 Months;
+More than 12 Months;
+Refused
+Don't know","1
+2
+3
+4
+Refused
+Don't know"
+COVID Exposure,Long COVID,How often do COVID-19 symptoms/health effects limit activities?,NHATS 13,CV4C,"During this time, how often did the symptoms or health effects limit {your/SP’s} activities? Would you say every day, most days, some days, rarely, or never?",,"Eevery day;
+Most days;
+Some days;
+Rarely;
+Never;
+Refused;
+Don't know","1
+2
+3
+4
+5
+Refused
+Don't know"
+Vaccination,Vaccination timing,Has R received a COVID-19 vaccine in the last year,NHATS 13,CV4,"In the last year {of {SP’s} life}, did you receive a COVID-19 vaccination or booster shot?",,"Yes;
+No;
+Refused;
+Don't know","1
+2
+Refused
+Don't know"
+COVID Exposure,Diagnosis,Did R ever test positive for COVID-19?,Wellbeing wave 2,Q45a,Which of the following experiences with coronavirus applied to you? I tested positive for coronavirus.,,"Yes;
+No","1
+2"
+COVID Exposure,Diagnosis,Did R suspect they had COVID-19 without testing,Wellbeing wave 2,Q45b,"Which of the following experiences with coronavirus applied to you? I suspected I had coronavirus based on symptoms, but I did not take a test to confirm.",,"Yes;
+No","1
+2"
+COVID Exposure,Diagnosis,Did R suspect they had COVID-19 but test negative,Wellbeing wave 2,Q45c,"Which of the following experiences with coronavirus applied to you? I suspected I had coronavirus based on symptoms, but the test results came back negative.",,"Yes;
+No","1
+2"
+COVID Exposure,Long COVID,Is R experiencing symptoms/continuing health problems related to COVID-19,Wellbeing wave 2,Q46,Are you currently experiencing any lingering physical or mental health effects from having the coronavirus?,,"Yes;
+No","1
+2"
+COVID Exposure,Long COVID,"Are COVID-19-related health problems physical, mental, or both",Wellbeing wave 2,Q47,"Are those physical effects, mental effects, or both?",,"Physical; 
+Mental; 
+Both","1
+2
+3"
+COVID Exposure,Diagnosis,Was R ever diagnosed with COVID-19 by health care provider,NHIS 2022,CVDDIAG_A,Has a doctor or other health professional ever told you that you had or likely had coronavirus or COVID-19?,,"Yes;
+No;
+Refused;
+Don't know","1
+2
+7
+9"
+COVID Exposure,Diagnosis,Did R ever test positive for COVID-19?,NHIS 2022,POSTEST_A,Did you ever take a test that showed you had coronavirus or COVID-19?,,"Yes;
+No;
+Refused;
+Don't know","1
+2
+7
+9"
+COVID Exposure,Symptoms,How bad were COVID-19 symptoms at their worst?,NHIS 2022,CVDSEV_A,"How would you describe your coronavirus symptoms when they were at their worst? Would you say no symptoms, mild symptoms, moderate symptoms, or severe symptoms?",,"No symptoms;
+Mild symptoms;
+Moderate symptoms;
+Severe symptoms;
+Refused;
+Don't Know","1
+2
+3
+4
+7
+9"
+COVID Exposure,Long COVID,Did R have symptoms lasting >3 months that R did not have prior to COVID-19,NHIS 2022,LONGCVD_A,Did you have any symptoms lasting 3 months or longer that you did not have prior to having coronavirus or COVID-19?,"Long term symptoms may include tiredness or fatigue, difficulty thinking, concentrating, forgetfulness or memory problems, sometimes referred to as ""brain fog,"" difficulty breathing or shortness of breath, joint or muscle pain, fast-beating or pounding heart (also known as heart palpitations), chest pain, dizziness on standing, depression, anxiety or mood changes. ","Yes;
+No;
+Refused;
+Don't Know","1
+2
+7
+9"
+COVID Exposure,Long COVID,Is R experiencing symptoms/continuing health problems related to COVID-19,NHIS 2022,SYMPNOW_A,Do you have symptoms NOW?,,"Yes;
+No;
+Refused;
+Don't Know","1
+2
+7
+9"
+Vaccination,Vaccination status,Has R received [at least one dose of] a COVID-19 vaccine,NHIS 2022,SHTCVD191_A,"The next questions are about coronavirus or COVID-19 vaccination. Have you had at least one dose of a COVID-19 vaccination? 
+","Read if necessary: The COVID-19 vaccination has been available since 2020.
+Read if necessary: There are three vaccines for COVID-19 approved for use in the United States. The first is made by Pfizer, is called Comirnaty® (koe-mir'-na-tee), and requires two initial shots. The second is made by Moderna and also requires two initial shots. The third is made by Johnson and Johnson and requires one initial shot. ","Yes;
+No;
+Refused;
+Don't Know","1
+2
+7
+9"
+Vaccination,Vaccination status,Has child/have children received at least one dose of a COVID-19 vaccination?,NHIS 2022,SHTCVD191_C,Has ^SCNAME had at least one dose of a COVID-19 vaccination? ,"If GEN.AGE_FINAL[PX_C] ge 5 and GEN.AGE_FINAL[PX_C] le 11,
+fill: "" Read if necessary: The COVID-19 vaccination has
+been available for children between the ages of 5 and 11
+since November 2021.""
+If GEN.AGE_FINAL[PX_C] ge 12 and GEN.AGE_FINAL[PX_C] le
+15, fill: "" Read if necessary: The COVID-19 vaccination
+has been available for children between the ages of 12 and
+15 since May 2021.""
+If GEN.AGE_FINAL[PX_C] ge 16 and GEN.AGE_FINAL[PX_C] le
+17, fill: "" Read if necessary: The COVID-19 vaccination
+has been available for children between the ages of 16 and
+17 since 2020."" ","Yes;
+No;
+Refused;
+Don't Know","1
+2
+7
+9"
+Vaccination,Vaccination timing,Month of R's most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC1M_A,During what month and year did you receive your most recent COVID-19 vaccination?, Enter month of most recent COVID-19 vaccination.,"January;
+February;
+March;
+April;
+May;
+June;
+July;
+August;
+September;
+October;
+November;
+December;
+Refused;
+Don't Know","01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+97
+99"
+Vaccination,Vaccination timing,Year of R's most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC1Y_A,During what month and year did you receive your most recent COVID-19 vaccination?,Enter year of most recent COVID-19 vaccination. ,"Year (2000-2030);
+Refused;
+Don't Know","2000-2030
+9997
+9999"
+Vaccination,Vaccination timing,Month of R's next most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC2M_A,During what month and year did you receive your next most recent COVID-19 vaccination?, Enter month of most recent COVID-19 vaccination.,"January;
+February;
+March;
+April;
+May;
+June;
+July;
+August;
+September;
+October;
+November;
+December;
+Refused;
+Don't Know","01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+97
+99"
+Vaccination,Vaccination timing,Year of R's next most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC2Y_A,During what month and year did you receive your most recent COVID-19 vaccination?,Enter year of next most recent COVID-19 vaccination. ,"Year (2000-2030);
+Refused;
+Don't Know","2000-2030
+9997
+9999"
+Vaccination,Vaccination timing,Month of child's most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC1M_C,During what month and year did ^SCNAME receive ^hisher_C most recent COVID-19 vaccination? Month:,Enter month of most recent COVID-19 vaccination.,"January;
+February;
+March;
+April;
+May;
+June;
+July;
+August;
+September;
+October;
+November;
+December;
+Refused;
+Don't Know","01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+97
+99"
+Vaccination,Vaccination timing,Year of child's most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC1Y_C,During what month and year did ^SCNAME receive ^hisher_C most recent COVID-19 vaccination? Year:,"Enter year of most recent COVID-19 vaccination. 
+","Year (2000-2030);
+Refused;
+Don't Know","2000-2030
+9997
+9999"
+Vaccination,Vaccination timing,Month of child's next most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC2M_C,During what month and year did ^SCNAME receive ^hisher_C next most recent COVID-19 vaccination? Month:,Enter month of the next most recent COVID-19 vaccination.,"January;
+February;
+March;
+April;
+May;
+June;
+July;
+August;
+September;
+October;
+November;
+December;
+Refused;
+Don't Know","01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+97
+99"
+Vaccination,Vaccination timing,Year of child's next most recent COVID-19 vaccination or booster,NHIS 2022,CVDVAC2Y_C,During what month and year did ^SCNAME receive ^hisher_C next most recent COVID-19 vaccination? ,"Enter year of next most recent COVID-19 vaccination. 
+","Year (2000-2030);
+Refused;
+Don't Know","2000-2030
+9997
+9999"
+Vaccination,Number of vaccines,How many COVID-19 vaccinations has R received,NHIS 2022,SHTCVD19NM_A,How many COVID-19 vaccinations have you received?,,"1 vaccination;
+2 vaccinations;
+3 vaccinations;
+4 or more vaccinations;
+Refused;
+Don't Know ","1
+2
+3
+4
+7
+9"
+Vaccination,Number of vaccines,How many COVID-19 vaccinations has child received,NHIS 2022,SHTCVD19NM_C,How many COVID-19 vaccinations has ^SCNAME received? ,,"1 vaccination;
+2 vaccinations;
+3 vaccinations;
+4 or more vaccinations;
+Refused;
+Don't Know ","1
+2
+3
+4
+7
+9"
+Vaccination,Brand of vaccine,Which brand of COVID-19 vaccine did R receive?,NHIS 2022,SHOTTYPE_A,"[For your first shot,] which brand of COVID-19 vaccine did you receive? ","Read if necessary: There are three vaccines for COVID-19 approved for use in the United States. The first is made by Pfizer, is called Comirnaty® (koe-mir'-na-tee), and requires two initial shots. The second is made by Moderna and also requires two initial shots. The third is made by Johnson and Johnson and requires one initial shot. ","Pfizer-Biontech Comirnaty shot;
+Moderna shot;
+Johnson and Johnson (Janssen) shot;
+One of the brands that requires two initial shots, but not sure which brand;
+None of these brands;
+Refused;
+Don't Know ","1
+2
+3
+4
+5
+7
+9"
+Vaccination,Brand of vaccine,Which brand of COVID-19 vaccine did child receive?,NHIS 2022,SHOTTYPE_C,"[For his/her/their first shot,] which brand of COVID-19 vaccine did ^SCNAME receive?","Read if necessary: There are three vaccines for COVID-19 approved for use in the United States. The first is made by Pfizer, is called Comirnaty® (koe-mir'-na-tee), and requires two initial shots. The second is made by Moderna and also requires two initial shots. The third is made by Johnson and Johnson and requires one initial shot. ","Pfizer-Biontech Comirnaty shot;
+Moderna shot;
+Johnson and Johnson (Janssen) shot;
+One of the brands that requires two initial shots, but not sure which brand;
+None of these brands;
+Refused;
+Don't Know ","1
+2
+3
+4
+5
+7
+9"
